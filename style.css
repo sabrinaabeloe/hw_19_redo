@@ -1,0 +1,105 @@
+root{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+  }
+  body{
+    margin:0;
+    padding:0;
+    background-color: #EEE9F5;
+  
+  }
+  .cardContainer {
+    margin-top: 20px;
+  }
+  #profile-pic{
+    max-width: 200px;
+    height:auto;
+    margin-left: 5vw;
+    align-self:center;
+    margin-top: 2vh;
+  }
+  #hero-section{
+    width:80vw;
+    margin-left: 10vw;
+    border: 1px solid gray;
+    border-radius: 12px;
+    background-color: #A8EEC8;
+  }
+  .btn{
+    background-color:#E2CBFF;
+  }
+  #aboutMe{
+    width: 100%;  
+    margin-left: 7vw;
+    padding-left: 7vw;
+  }
+  .zoom{
+    transform: scale(1.1, 1.1);
+    transition: transform 0.5s ease-in-out;
+  }
+  .card{
+    border:7px double #E2CBFF; 
+    border-radius:30px;
+    padding-top:2vh;
+  }
+  .card:hover{
+    cursor:pointer;
+  }
+  .customNav{
+    top:0;
+    position: fixed;
+    width: 100%;
+    /* background:url(./images/purple.png); */
+    /* background-size: cover; */
+    background-color: #E2CBFF !important;
+    z-index: 1;
+  }
+  .customNav img{
+    height:50px;
+    width:auto;
+  }
+  .navbar-nav{
+    margin: auto;
+    margin-right: 0 !important;
+  }
+  .content{
+    padding: 50px;
+  }
+  #GSOC-image{
+    max-width: 40vw;
+  }
+  #USDA-image{
+    max-width: 40vw;
+  }
+  .card img{
+    height: 300px;
+    width: auto;
+    flex-direction: row;
+  }
+  
+  .container-fluid{
+  justify-content: center;
+  text-align: center;
+  float: center;
+  }
+  footer{
+    color: black;
+    background-color:#E2CBFF;
+    padding:25px;
+  }
+  ul{
+    list-style-type: none;
+    display:flex;
+    vertical-align: top;
+    margin:8;
+    padding:8;
+    justify-content:space-between;
+    text-align:center;
+    font-family: 'Raleway', sans-serif;
+  }
+  li{
+    display:inline;
+    justify-content: center;
+    float:center;
+  }
